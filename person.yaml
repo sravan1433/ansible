@@ -1,0 +1,18 @@
+- name: sunny
+  dob: 04-08-2002
+   #this is map
+  address:
+   city: hyd
+   country: india
+   dno: 108
+   street: ganesh nagar
+     #list of addresses
+  addresses:
+  - type: perm
+   city: hyd
+   country: india
+  - type: current address
+   city: california
+   country: us
+
+
