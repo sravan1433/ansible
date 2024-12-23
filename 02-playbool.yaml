@@ -1,0 +1,7 @@
+- name: ping
+  hosts: mongodb
+  #this is list of task/modules/collections
+  tasks:
+  - name: ping the server
+    ansible.builtin.ping
+    
